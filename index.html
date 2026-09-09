@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>סימולציית ניהול משבר - BP (גרסה מורחבת)</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="simulation-container">
+        <h1>ניהול משבר: Deepwater Horizon</h1>
+        
+        <div id="scenario-box" class="card">
+            <div class="progress" id="progress-text">שלב 1 מתוך 6</div>
+            <img id="scenario-image" src="" alt="תמונת תרחיש">
+            <p id="scenario-text">טוען תרחיש...</p>
+            <div class="buttons">
+                <button id="btn-option-a" class="btn primary-btn"></button>
+                <button id="btn-option-b" class="btn secondary-btn"></button>
+            </div>
+        </div>
+
+        <div id="result-box" class="card hidden">
+            <h3 id="result-title"></h3>
+            <p id="result-text"></p>
+            <button id="btn-next" class="btn action-btn">המשך לתרחיש הבא</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
